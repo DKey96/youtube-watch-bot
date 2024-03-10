@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "youtube-watch-bot"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Klic <daniel.klic96@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.18.1"
+pre-commit = "^3.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
